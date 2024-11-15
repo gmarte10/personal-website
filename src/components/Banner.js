@@ -8,7 +8,7 @@ import TrackVisibility from "react-on-screen";
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
-  const toRotate = ["Software Developer", "Web Developer", "UI/UX Designer"];
+  const toRotate = ["Software Engineer", "Web Developer", "UI/UX Designer"];
   const [text, setText] = useState("");
   const [index, setIndex] = useState(1);
   const [delta, setDelta] = useState(300 - Math.random() * 100);
@@ -67,10 +67,10 @@ export const Banner = () => {
                   {`Hi I'm Giancarlos `}
                   <span className="wrap">{text}</span>
                 </h1>
-                <p>About Me: I like coding</p>
-                <button onClick={() => console.log("connect")}>
+                {/* <p>About Me: I like coding</p> */}
+                {/* <button onClick={() => console.log("connect")}>
                   Let's connect <ArrowRightCircle size={25} />
-                </button>
+                </button> */}
               </div>}
             </TrackVisibility>
           </Col>

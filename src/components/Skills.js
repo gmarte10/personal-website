@@ -9,7 +9,6 @@ import colorSharp from "../assets/img/color-sharp.png";
 export const Skills = () => {
   const responsive = {
     superLargeDesktop: {
-      // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
       items: 5,
     },
@@ -34,7 +33,9 @@ export const Skills = () => {
             <div className="skill-bx">
               <h2>Skills</h2>
               <p>
-                Java, C, Python <br></br> Spring, React, Flask
+                <b>Languages: </b>Java, Python, C, Javascript, SQL, HTML, CSS, Bash
+                <br></br>
+                <b>Frameworks: </b>Spring Boot, Spring Security, React, Pytorch
               </p>
               <Carousel
                 responsive={responsive}
@@ -47,15 +48,15 @@ export const Skills = () => {
                 </div>
                 <div className="item">
                   <img src={meter2} alt="Image" />
-                  <h5>Logo Design</h5>
+                  <h5>Machine Learning</h5>
                 </div>
                 <div className="item">
                   <img src={meter3} alt="Image" />
-                  <h5>Brand Identity</h5>
+                  <h5>Restful API</h5>
                 </div>
                 <div className="item">
                   <img src={meter1} alt="Image" />
-                  <h5>Web Development</h5>
+                  <h5>SOLID Principles</h5>
                 </div>
               </Carousel>
             </div>
